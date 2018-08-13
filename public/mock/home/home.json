@@ -1,0 +1,162 @@
+{
+  "bannerList": [
+    [
+      {"name": "美食", "img": "/img/icon/meishi.png"},
+      {"name": "猫眼电影", "img": "/img/icon/dp_wx_maoyan_icon.png"},
+      {"name": "酒店", "img": "/img/icon/jiudian.png"},
+      {"name": "休闲娱乐", "img": "/img/icon/xiuxianyule.png"},
+      {"name": "外卖", "img": "/img/icon/waimai.png"},
+      {"name": "火锅", "img": "/img/icon/huoguo.png"},
+      {"name": "丽人", "img": "/img/icon/liren.png"},
+      {"name": "购物", "img": "/img/icon/icongouwu135.png"},
+      {"name": "周边游", "img": "/img/icon/zhoubianyou.png"},
+      {"name": "KTV", "img": "/img/icon/ktv.png"}
+    ],
+    [
+      {"name": "婚纱摄影", "img": "/img/icon/jiehun.png"},
+      {"name": "生活服务", "img": "/img/icon/community_new.png"},
+      {"name": "景点", "img": "/img/icon/jingguan.png"},
+      {"name": "爱车", "img": "/img/icon/aiche.png"},
+      {"name": "运动健身", "img": "/img/icon/jianshen.png"},
+      {"name": "亲子", "img": "/img/icon/qinzi.png"},
+      {"name": "家装", "img": "/img/icon/zhaungxiugongsi.png"},
+      {"name": "学习培训", "img": "/img/icon/peixun.png"},
+      {"name": "医疗健康", "img": "/img/icon/yiliao.png"},
+      {"name": "到家", "img": "/img/icon/daojia.png"}
+    ],
+    [
+      {"name": "自助餐", "img": "/img/icon/zizhucan.png"},
+      {"name": "日本料理", "img": "/img/icon/rihanliaoli.png"},
+      {"name": "美发", "img": "/img/icon/meifa.png"},
+      {"name": "美甲美瞳", "img": "/img/icon/meijia.png"},
+      {"name": "美容SPA", "img": "/img/icon/meirong.png"},
+      {"name": "瘦身纤体", "img": "/img/icon/shoushen.png"},
+      {"name": "亲子摄影", "img": "/img/icon/qinzisheying.png"},
+      {"name": "亲子游乐", "img": "/img/icon/qinziyoule.png"},
+      {"name": "幼儿教育", "img": "/img/icon/youerjiaoyu.png"},
+      {"name": "全部分类", "img": "/img/icon/more.png"}
+    ]
+  ],
+  "newsList": [
+    {
+      "title": "最低1元，宜家这些单品最能提升出租屋格调，老司机吐血整理",
+      "img": "/img/headline-tip.jpeg"
+    },
+    {
+      "title": "睡前这样趴10分钟，等于跑步1小时！",
+      "img": "/img/everyday.jpg"
+    },
+    {
+      "title": "精选专题：2017好物盘点",
+      "img": "/img/good2017.jpg"
+    }
+  ],
+  "benifitList": [
+    {"id": "101", "title":  "Y-SUSHI智能回转寿司店", "price": 1, "discount": 9, "img": "/img/cai/1.jpg"},
+    {"id": "102", "title":  "發囍烧味●发喜烧味", "price": 1, "discount": 16, "img": "/img/cai/2.jpg"},
+    {"id": "103", "title":  "文记牛肉火锅店", "price": 1, "discount": 28, "img": "/img/cai/3.jpg"}
+  ],
+  "daliyList": [
+    {"id": "104", "title": "红鼎天川菜龙虾城", "price": 198, "discount": 10, "img": "/img/cai/4.jpg"},
+    {"id": "105", "title": "Gazan雅山", "price": 90, "discount": 8, "img": "/img/cai/5.jpg"},
+    {"id": "106", "title": "到咱家东北饺子馆", "price": 26, "discount": 4, "img": "/img/cai/6.jpg"}
+  ],
+  "list": [
+    {
+      "id": "1",
+      "title": "畅想国度黄埔旗舰店",
+      "detail": "[大沙地] 白天场6小时/晚场3小时欢唱+酒水/饮品",
+      "img": "/img/cai/list1.jpg",
+      "price": 114,
+      "discount": 12.9,
+      "sellCount": 15442,
+      "isDiscount": false,
+      "isDiscountPrice": null,
+      "isNotAppointment": false
+    },
+    {
+      "id": "2",
+      "title": "爱琴海KTV（梅花园店）",
+      "detail": "[同和/京溪] 单人周一至周日11:00-19:00时段任选4小时连续欢唱",
+      "img": "/img/cai/list2.jpg",
+      "price": 49,
+      "discount": 15,
+      "sellCount": 15542,
+      "isDiscount": false,
+      "isDiscountPrice": null,
+      "isNotAppointment": false
+    },
+    {
+      "id": "1",
+      "title": "台湾小吃蚵仔面线",
+      "detail": "[北京路] 蚵仔面线1份，提供免费WiFi",
+      "img": "/img/cai/list3.jpg",
+      "price": 9.9,
+      "discount": null,
+      "sellCount": 155454,
+      "isDiscount": true,
+      "isDiscountPrice": 8.9,
+      "isNotAppointment": true
+    },
+    {
+      "id": "2",
+      "title": "广饮讲食鸽子皇",
+      "detail": "[江南大道] 红烧乳鸽1份，提供免费WiFi",
+      "img": "/img/cai/list4.jpg",
+      "price": 9.9,
+      "discount": null,
+      "sellCount": 14454,
+      "isDiscount": true,
+      "isDiscountPrice": 8.9,
+      "isNotAppointment": true
+    },
+    {
+      "id": "1",
+      "title": "四云奶盖贡茶",
+      "detail": "[6店通用] 超值单品6选1，提供免费WiFi",
+      "img": "/img/cai/list5.jpg",
+      "price": 15,
+      "discount": null,
+      "sellCount": 2545,
+      "isDiscount": true,
+      "isDiscountPrice": 12,
+      "isNotAppointment": true
+    },
+    {
+      "id": "2",
+      "title": "正新鸡排",
+      "detail": "[32店通用] 【官方】正新鸡排尊享版单人餐",
+      "img": "/img/cai/list6.jpg",
+      "price": 20,
+      "discount": 9.5,
+      "sellCount": 3690,
+      "isDiscount": false,
+      "isDiscountPrice": null,
+      "isNotAppointment": true
+    },
+    {
+      "id": "1",
+      "title": "汉堡王",
+      "detail": "[16店通用] 薯霸王（中）2份",
+      "img": "/img/cai/list7.jpg",
+      "price": 21,
+      "discount": 10.5,
+      "sellCount": 2658,
+      "isDiscount": false,
+      "isDiscountPrice": null,
+      "isNotAppointment": true
+    },
+    {
+      "id": "2",
+      "title": "歌利亚KTV",
+      "detail": "[钟落潭] 周一至周日下午场欢唱3小时+单人饮料",
+      "img": "/img/cai/list8.jpg",
+      "price": 45,
+      "discount": 10.9,
+      "sellCount": 3654,
+      "isDiscount": false,
+      "isDiscountPrice": null,
+      "isNotAppointment": false
+    }
+  ]
+}

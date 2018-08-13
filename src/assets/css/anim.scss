@@ -1,0 +1,37 @@
+// keyframs animate
+@keyframes slideUpSearch {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+@-webkit-keyframes slideUpSearch {
+  from {
+    top: 100%;
+    z-index: -1;
+  }
+  to {
+    top: 0;
+    z-index: 9999;
+  }
+}
+@keyframes slideDownSearch {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+@-webkit-keyframes slideDownSearch {
+  from {
+    top: 0%;
+    z-index: -1;
+  }
+  to {
+    top: 100%;
+    z-index: 9999;
+  }
+}

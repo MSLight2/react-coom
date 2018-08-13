@@ -1,0 +1,77 @@
+{
+  "bannerImg": {
+    "imgList": [
+      "https://p0.meituan.net/deal/a530a5b8362e3bae53478659733a52c585619.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p0.meituan.net/deal/f9049ba3bd6f413e66642ccaf290382f101928.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p1.meituan.net/deal/9cd0c3106375ac466f34f3e43a4e304d93856.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p0.meituan.net/deal/ee6d34eac84bf818a8359c65e2d3c6f9144689.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p1.meituan.net/deal/df9b49878ef7dd64f5066ed170f7822e95124.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20"
+    ],
+    "imgDesc": {
+      "title": "文记牛肉火锅店",
+      "desc": "仅售88元！价值100元的代金券1张，除酒水外全场通用，可叠加使用，提供免费WiFi。"
+    }
+  },
+  "goodsPriceDetial": {
+    "price": 100,
+    "discount": 88,
+    "isDailyDisCount": false,
+    "dailyDisCount": null,
+    "limitCount": null,
+    "isAnyTile": true,
+    "beOverdue": true
+  },
+  "goodsInfo": {
+    "title": "文记牛肉火锅店(西华路店)",
+    "businessCount": 1,
+    "star": 3.5,
+    "distance": 1500,
+    "address": "西华路405号金平大厦对面",
+    "phone": "12345678900"
+  },
+  "groupGoodsDetail": {
+    "typeText": "下午茶饮品7 选 1 (不可重复选)",
+    "goodsItem": [
+      {
+        "title": "代金券",
+        "count": 1,
+        "price": 100
+      }
+    ],
+    "maxPrice": 100,
+    "groupPrice": 88,
+    "explain": "店内人均消费参考价: 58元"
+  },
+  "buyNow": {
+    "dataTime": "2016-12-20至2018-03-15",
+    "exTime": "2018年2月15日至2018年3月2日",
+    "useTime": "团购券使用时间：17:30-次日3:00",
+    "makeRemind": "无需预约，消费高峰时可能需要等位",
+    "ruleRemind": ["可叠加使用", "不兑现、不找零"],
+    "otherPay": ["除酒水外全场通用"],
+    "privateRoom": false,
+    "toGo": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家",
+    "tip": ["团购用户不可同时享受商家其他优惠","酒水饮料等问题，请致电商家咨询，以商家反馈为准"],
+    "businessService": [
+      "提供免费WiFi",
+      "停车位收费标准：详情以商家反馈为准"
+    ]
+  },
+  "other": [
+    {
+      "title": "超值6人餐",
+      "price": 372,
+      "discount": 248
+    },
+    {
+      "title": "手捶牛筋丸1份",
+      "price": 28,
+      "discount": 1
+    },
+    {
+      "title": "超值8人餐",
+      "price": 288,
+      "discount": 444
+    }
+  ]
+}

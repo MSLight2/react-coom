@@ -1,0 +1,33 @@
+/*主体背景色*/
+$main-bg: #f63;
+$c-999: #999;
+.price{color: $main-bg;}
+.discount{color: $c-999;}
+div,p{
+	max-height: 999999px;
+  max-width: 999999px;
+}
+/*px 转 rem*/
+@function px2rem ($px, $base-font-size: 75px) {
+	@if (unitless($px)) {
+		@warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels for you";
+		@return px2em($px + 0px);
+	} @else if (unit($px) == em) {
+		@return $px
+	}
+	@return ($px / $base-font-size) * 1rem;
+}
+// 小箭头
+@mixin arrowIcon($w: 16px, $h: 16px, $rotate: 45deg, $top: 30px, $right: 16px){
+	display: block;
+	position: absolute;
+	top: px2rem($top);
+	right: px2rem($right);
+	width: px2rem($w);
+	height: px2rem($h);
+	border: 4px solid #b3b1b1;
+	border-left: none;
+	border-bottom: none;
+	-webkit-transform: rotate($rotate);
+	transform: rotate($rotate);
+}

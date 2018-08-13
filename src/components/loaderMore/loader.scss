@@ -1,0 +1,43 @@
+.loader{
+  display: flex;
+  justify-content: center;
+  height: 1.2rem;
+  background: #fff;
+  .ball-clip-rotate{
+    align-self: center;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    div {
+      border-radius: 100%;
+      margin: 2px;
+      border: 2px solid #f63;
+      border-bottom-color: transparent;
+      height: 0.5rem;
+      width: 0.5rem;
+      background: 0 0!important;
+      display: inline-block;
+      -webkit-animation: rotate .75s 0s linear infinite;
+      animation: rotate .75s 0s linear infinite
+    }
+    span{
+      align-self: center;
+      margin-left: 2px;
+      font-size: 0.32rem
+    }
+  }
+}
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg)
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}

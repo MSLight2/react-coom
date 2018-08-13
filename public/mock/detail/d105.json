@@ -1,0 +1,79 @@
+{
+  "bannerImg": {
+    "imgList": [
+      "https://p1.meituan.net/deal/ddbb880d80bb7832a8993c0e9b25f3cd65920.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p1.meituan.net/deal/47bc7933f950df99463c5f86b264ec6c76626.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p0.meituan.net/deal/c1f5e7a1c54045e03e243c8c51e9e5f259896.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20"
+    ],
+    "imgDesc": {
+      "title": "Gazan雅山",
+      "desc": "仅售180元！最高价值188元的万州烤鱼四人餐，提供免费WiFi。"
+    }
+  },
+  "goodsPriceDetial": {
+    "price": 188,
+    "discount": 180,
+    "isDailyDisCount": true,
+    "dailyDisCount": 8,
+    "limitCount": 1,
+    "isAnyTile": true,
+    "beOverdue": true
+  },
+  "goodsInfo": {
+    "title": "Gazan雅山(花城汇店)",
+    "businessCount": 1,
+    "star": 3,
+    "distance": 1800,
+    "address": "冼村街道花城广场珠江东路30号东花城汇中区B1层",
+    "phone": "12345678900"
+  },
+  "groupGoodsDetail": {
+    "typeText": "万州烤鱼3选1(不可重复选)",
+    "goodsItem": [
+      {
+        "title": "万州烤鱼",
+        "count": 1,
+        "price": 68
+      },
+      {
+        "title": "原锅酸菜鱼",
+        "count": 1,
+        "price": 48
+      },
+      {
+        "title": "川味水煮鱼",
+        "count": 1,
+        "price": 58
+      }
+    ],
+    "maxPrice": 188,
+    "groupPrice": 180,
+    "explain": ""
+  },
+  "buyNow": {
+    "dataTime": "2016-03-09至2018-04-02",
+    "exTime": "2018年2月1日至2018年2月26日",
+    "useTime": "团购券使用时间：10:00-24:00",
+    "makeRemind": "无需预约，消费高峰时可能需要等位",
+    "ruleRemind": ["每张团购券建议4人使用"],
+    "otherPay": ["方案不含餐巾纸，需到店另付1元/份","套餐包含4份茶位，如需增加，需到店另付4元/份"],
+    "privateRoom": false,
+    "toGo": "堂食外带均可，可以打包，打包费详情咨询商家",
+    "tip": ["团购用户不可同时享受商家其他优惠"],
+    "businessService": [
+      "提供免费WiFi"
+    ]
+  },
+  "other": [
+    {
+      "title": "炖汤3选1",
+      "price": 10,
+      "discount": 6.8
+    },
+    {
+      "title": "代金券1张",
+      "price": 19.9,
+      "discount": 25
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+.alert-main{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  .alert-text{
+    align-self: center;
+    color: #ffffff;
+    background: #000000;
+    max-width: 4.5rem;
+    min-width: 1.0rem;
+    word-wrap: break-word;
+    border-radius: 10px;
+    padding: 22px 20px;
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bannerImg": {
+    "imgList": [
+      "https://p1.meituan.net/deal/__40538365__5065783.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20"
+    ],
+    "imgDesc": {
+      "title": "红鼎天川菜龙虾城",
+      "desc": "仅售155元！最高价值209元的2-3人套餐，可免费使用包间，提供免费WiFi。"
+    }
+  },
+  "goodsPriceDetial": {
+    "price": 209,
+    "discount": 199,
+    "isDailyDisCount": true,
+    "dailyDisCount": 10,
+    "limitCount": 10,
+    "isAnyTile": true,
+    "beOverdue": true
+  },
+  "goodsInfo": {
+    "title": "红鼎天川菜龙虾城(天河店)",
+    "businessCount": 1,
+    "star": 3.5,
+    "distance": 1500,
+    "address": "黄埔大道西105-2号",
+    "phone": "12345678900"
+  },
+  "groupGoodsDetail": {
+    "typeText": "小龙虾",
+    "goodsItem": [
+      {
+        "title": "王中王小龙虾",
+        "count": 1,
+        "price": 100
+      },
+      {
+        "title": "小炒回锅肉",
+        "count": 1,
+        "price": 38
+      },
+      {
+        "title": "茶位",
+        "count": 3,
+        "price": 5
+      },
+      {
+        "title": "纸巾",
+        "count": 1,
+        "price": 1
+      },
+      {
+        "title": "围裙",
+        "count": 3,
+        "price": 1
+      },
+      {
+        "title": "白饭",
+        "count": 3,
+        "price": 2
+      }
+    ],
+    "maxPrice": 209,
+    "groupPrice": 155,
+    "explain": ""
+  },
+  "buyNow": {
+    "dataTime": "2016-03-09至2018-04-02",
+    "exTime": "2018年2月1日至2018年2月26日",
+    "useTime": "团购券使用时间：10:00-24:00",
+    "makeRemind": "无需预约，消费高峰时可能需要等位",
+    "ruleRemind": ["每张团购券建议2至3人使用"],
+    "otherPay": ["可免费使用包间"],
+    "privateRoom": true,
+    "toGo": "堂食外带均可，可以打包，打包费详情咨询商家",
+    "tip": ["团购用户不可同时享受商家其他优惠","酒水饮料等问题，请致电商家咨询，以商家反馈为准","如部分菜品因时令或其他不可抗因素导致无法提供，店内会用等价菜品替换，具体事宜请与店内协商"],
+    "businessService": [
+      "提供免费WiFi"
+    ]
+  },
+  "other": [
+    {
+      "title": "4-6人套餐",
+      "price": 361,
+      "discount": 308
+    },
+    {
+      "title": "19选3",
+      "price": 129,
+      "discount": 58
+    },
+    {
+      "title": "19选4",
+      "price": 166,
+      "discount": 88
+    }
+  ]
+}

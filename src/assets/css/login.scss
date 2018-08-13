@@ -1,0 +1,238 @@
+@import 'index';
+
+.login-header{
+	position: relative;
+	height: px2rem(90px);
+	line-height: px2rem(90px);
+	font-size: px2rem(34px);
+	text-align:center;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-bottom: 2px solid $main-bg;
+	.back{
+		position: absolute;
+		top: 0;
+		left: px2rem(20px);
+		width: px2rem(70px);
+		height: 100%;
+		i{
+			@include arrowIcon(22px, 22px, -135deg, 35px, 30px);
+			border-color: $main-bg;
+		}
+	}
+}
+.l-login > .goods-login{
+	margin-top: px2rem(30px);
+}
+.login-tip{
+	margin-top: px2rem(10px);
+	color: $c-999;
+	font-size: px2rem(24px);
+	text-align: center;
+}
+.login-btn{
+	height: px2rem(80px);
+	line-height: px2rem(80px);
+	color: #fff;
+	font-size: px2rem(30px);
+	text-align: center;
+	background: $main-bg;
+	margin: px2rem(20px) px2rem(30px);
+	box-sizing: border-box;
+	border-radius: 6px;
+	letter-spacing: px2rem(12px);
+}
+.account-login{
+	text-align: right;
+	margin-right: px2rem(30px);
+	a{
+		font-size: px2rem(30px);
+		color: #466889;
+	}
+}
+.other-login{
+	margin-top: px2rem(150px);
+	text-align: center;
+	font-size: px2rem(32px);
+	color: $c-999;
+	.part-title{
+		position: relative;
+		&:before,&:after{
+			content: '';
+			position: absolute;
+			top: px2rem(23px);
+			left: px2rem(30px);
+			width: px2rem(200px);
+			height: 2px;
+			background: #d7d7d7;
+		}
+		&:after{
+			left: initial;
+			right: px2rem(30px);
+		}
+	}
+	.part-icon{
+		display: flex;
+		justify-content: center;
+		margin-top: px2rem(40px);
+		i{
+			display: block;
+			height: px2rem(70px);
+			width: px2rem(70px);
+			margin-right: px2rem(75px);
+			border-radius: px2rem(8px);
+			background: url(../img/icon/oauth.png);
+			background-size: px2rem(70px);
+			background-repeat: no-repeat;
+			&:last-child{
+				background-position: 0 px2rem(-69px);
+				margin-right: 0;
+				margin-left: px2rem(75px);
+			}
+		}
+	}
+}
+.foot-tip{
+	position: fixed;
+	width: 100%;
+	bottom: px2rem(60px);
+	font-size: px2rem(24px);
+	text-align: center;
+	color: $c-999;
+	span{
+		color: #466889;
+	}
+}
+// -------------优惠券----------------
+.coupon-main{
+	.coupon-tip{
+		position: relative;
+		height: px2rem(76px);
+		line-height: px2rem(76px);
+		font-size: px2rem(24px);
+		color: #f2b11e;
+		background: #fff4da;
+		border-bottom: 1px solid #f4d187;
+		padding-left: px2rem(60px);
+		&::before{
+			content: "";
+			position: absolute;
+			left: px2rem(26px);
+			top: px2rem(28px);
+			height: px2rem(22px);
+			width: px2rem(22px);
+			background: url('../img/icon/coupon-warning.png');
+			background-repeat: no-repeat;
+			background-size: px2rem(22px);
+		}
+	}
+	.coipon-code{
+		.s-radio{
+			display: flex;
+			flex-direction: row;
+			height: px2rem(86px);
+			line-height: px2rem(86px);
+			font-size: px2rem(30px);
+			background: #fff;
+			padding-left: px2rem(22px);
+			padding-right: px2rem(22px);
+			.txt{
+				flex-grow: 1;
+				text-align: left;
+			}
+			.radio{
+				align-self: center;
+				height: px2rem(45px);
+				width: px2rem(45px);
+				background: url('../img/icon/radio.png');
+				background-repeat: no-repeat;
+				background-size: px2rem(45px) auto;
+				background-position: 0 px2rem(-52px);
+			}
+			span.active{
+				background-position: 0 px2rem(-104px);
+			}
+			.txtInput{
+				flex-grow: 1;
+				font-size: px2rem(30px);
+			}
+			.btn{
+				align-self: center;
+				color: #333;
+				font-size: px2rem(28px);
+				border: 1px solid #bbb;
+				border-radius: 10px;
+				height: px2rem(48px);
+				line-height: px2rem(48px);
+				padding: 0 px2rem(20px);
+			}
+		}
+		.btm1{border-bottom: 1px solid #d4d2d2;}
+		.c999{color: #999;}
+	}
+	.title-txt{
+		color: #999;
+		font-size: px2rem(28px);
+		height: px2rem(76px);
+		padding-left: px2rem(30px);
+		line-height: px2rem(76px);
+	}
+}
+// ------------账号密码登录---------------
+.name-login-main{
+	position: relative;
+	overflow: hidden;
+	margin-top: px2rem(25px);
+	.nlm-input{
+		background: #fff;
+		padding-left: px2rem(30px);
+		.nlm-name,.nlm-pwd{
+			position: relative;
+			height: px2rem(90px);
+			i{
+				position: absolute;
+				top: px2rem(25px);
+				width: px2rem(45px);
+				height: px2rem(45px);
+				text-align: center;
+				background: url('../img/icon/maccount.png');
+				background-repeat: no-repeat;
+				background-size: px2rem(45px) auto;
+				background-position: 0 0;
+			}
+			input{
+				width: 100%;
+				height: px2rem(88px);
+				font-size: px2rem(30px);
+				text-indent: px2rem(75px);
+				line-height: px2rem(88px);
+			}
+		}
+		.nlm-pwd > i{
+			background-position: 0 px2rem(-80px);
+		}
+		.nlm-name{
+			input{
+				border-bottom: 1px solid #efecec;
+			}
+		}
+	}
+	.nlm-login-btn{
+		height: px2rem(80px);
+		line-height: px2rem(80px);
+		text-align: center;
+		font-size: px2rem(30px);
+		letter-spacing: px2rem(12px);
+		color: #fff;
+		background: $main-bg;
+		box-sizing: border-box;
+		margin: px2rem(25px) px2rem(30px);
+		border-radius: px2rem(15px);
+	}
+	.nlm-text{
+		font-size: px2rem(30px);
+		margin-left: px2rem(30px);
+		a{color: #466889;}
+	}
+}

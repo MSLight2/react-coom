@@ -1,0 +1,76 @@
+{
+  "bannerImg": {
+    "imgList": [
+      "https://p1.meituan.net/deal/27802e4e6dbb94d0c629729b22b28da9609564.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p0.meituan.net/deal/b32e6a9fb7f9492394d55c8f2493290354743.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p0.meituan.net/deal/4647ee7aca7815f615bcbe281ee49adf33222.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p1.meituan.net/deal/6c75494cfa8b11ebef8092f64d234a2152227.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20"
+    ],
+    "imgDesc": {
+      "title": "Y-SUSHI智能回转寿司店",
+      "desc": "仅售1元！价值9元的火炙蟹肉棒寿司1件，提供免费WiFi。"
+    }
+  },
+  "goodsPriceDetial": {
+    "price": 9,
+    "discount": 1,
+    "isDailyDisCount": false,
+    "dailyDisCount": null,
+    "limitCount": null,
+    "isAnyTile": true,
+    "beOverdue": true
+  },
+  "goodsInfo": {
+    "title": "Y-SUSHI智能回转寿司店(海珠·合生店)",
+    "businessCount": 1,
+    "star": 3.5,
+    "distance": 1422,
+    "address": "昌岗中路188号海珠·合生生活天地B1层",
+    "phone": "12345678900"
+  },
+  "groupGoodsDetail": {
+    "typeText": "菜品",
+    "goodsItem": [
+        {
+        "title": "火炙蟹肉棒寿司",
+        "count": 2,
+        "price": 9
+      }
+    ],
+    "maxPrice": 9,
+    "groupPrice": 1,
+    "explain": "免费提供餐巾纸"
+  },
+  "buyNow": {
+    "dataTime": "2017-02-15至2018-03-10",
+    "exTime": "2018年2月15日至2018年2月17日",
+    "useTime": "团购券使用时间：11:00-22:00",
+    "makeRemind": "无需预约，消费高峰时可能需要等位",
+    "ruleRemind": ["每人最多使用2张团购券", "每张团购券建议1人使用"],
+    "otherPay": ["茶位费：需要支付茶位费"],
+    "privateRoom": false,
+    "toGo": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家",
+    "tip": ["团购用户不可同时享受商家其他优惠","酒水饮料等问题，请致电商家咨询，以商家反馈为准","如部分菜品因时令或其他不可抗因素导致无法提供，店内会用等价菜品替换，具体事宜请与店内协商"],
+    "businessService": [
+      "提供免费WiFi",
+      "停车位收费标准：详情以商家反馈为准"
+    ]
+  },
+  "other": [
+    {
+      "title": "日式双人餐",
+      "price": 119,
+      "discount": 79
+    },
+    {
+      "title": "超值双人餐",
+      "price": 243,
+      "discount": 108
+    },
+    {
+      "title": "超值3-4人餐",
+      "price": 426,
+      "discount": 198
+    }
+  ]
+}

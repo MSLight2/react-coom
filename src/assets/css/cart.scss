@@ -1,0 +1,203 @@
+@import 'index';
+
+@mixin goods-item($color: #333) {
+	padding-left: px2rem(25px);
+	height: px2rem(80px);
+	line-height: px2rem(80px);
+	color: $color;
+	font-size: px2rem(32px);
+	background: #fff;
+}
+.order-header{
+	position: relative;
+	height: px2rem(90px);
+	width: 100%;
+	line-height: px2rem(90px);
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	font-size: px2rem(27px);
+	.back{
+		position: absolute;
+		top: 0;
+		left: px2rem(60px);
+		color: #878787;
+		&:before{
+			content: '';
+			@include arrowIcon(24px, 24px, -135deg, 32px, 55px);
+			border-color: $main-bg;
+		}
+	}
+	.order-text{
+		font-size: px2rem(34px);
+	}
+}
+.goods-info{
+	.title{
+		box-sizing: border-box;
+		padding: px2rem(20px) px2rem(30px);
+		font-size: px2rem(28px);
+		color: $c-999;
+		line-height: 38px;
+	}
+	.count,.subtotal,.voucher{
+		@include goods-item($c-999)
+	}
+	.count{
+		border-bottom: 2px solid #efecec;
+		display: flex;
+		.txt{
+			align-self: flex-start;
+		}
+		.user-input{
+			align-self: flex-end;
+			flex-grow: 1;
+			display: flex;
+			justify-content: flex-end;
+			height: 100%;
+			span,input{
+				align-self: center;
+				height: px2rem(55px);
+				text-align: center;
+				line-height: px2rem(52px);
+				border: 1px solid #bbb;
+				color: #bbb;
+				padding: 0 px2rem(10px);
+				border-radius: 2px;
+			}
+			.add{
+				margin-right: px2rem(25px);
+				border-color: $main-bg;
+				padding: 0 px2rem(15px);
+				color: $main-bg;
+			}
+			input{
+				width: px2rem(80px);
+				height: px2rem(58px);
+				font-size: px2rem(32px);
+				color: #333;
+				margin: 0 px2rem(15px);
+			}
+		}
+	}
+	.subtotal .pri{
+		float: right;
+		margin-right: px2rem(25px);
+		color: #333;
+	}
+	.voucher{
+		position: relative;
+		font-size: px2rem(29px);
+		margin-top: px2rem(25px);
+		&:before{
+			content: '';
+			@include arrowIcon(15px, 15px, 45deg, 30px, 30px);
+		}
+		a{display: block;}
+	}
+}
+.now-login-txt{
+	display: inline-block;
+	margin: px2rem(60px) 0 px2rem(20px) px2rem(35px);
+	font-size: px2rem(29px);
+	color: #38b;
+}
+.goods-login{
+	.now-login,.ver-code{
+		@include goods-item;
+	}
+	.mobile-phone{
+		display: flex;
+		justify-content: flex-start;
+		height: 99%;
+		border-bottom: 1px solid #efecec;
+		.eara-num{
+			position: relative;
+			width: px2rem(80px);
+			&:before{
+				content: '';
+				position: absolute;
+				top: px2rem(16px);
+				right: px2rem(-45px);
+				height: px2rem(45px);
+				width: 1px;
+				background: #e0e0e0;
+			}
+			i{
+				@include arrowIcon(12px, 12px, 135deg, 30px, 10px);
+			}
+		}
+		.mobile-input{
+			position: relative;
+			flex-grow: 1;
+			padding-left: px2rem(90px);
+			.phone-number{
+				width: px2rem(350px);
+				font-size: px2rem(30px);
+				line-height: px2rem(50px);
+			}
+			.sent-code{
+				position: absolute;
+				top: px2rem(14px);
+				right: px2rem(25px);
+				height: px2rem(50px);
+				padding: 0 px2rem(15px);
+				line-height: px2rem(50px);
+				font-size: px2rem(29px);
+				border: 1px solid #bbb;
+				border-radius: 8px;
+			}
+		}
+	}
+	.ver-code{
+		display: flex;
+		justify-content: flex-start;
+		.txt{
+			display: inline-block;
+		}
+		.phone-code{
+			flex-grow: 1;
+			padding-left: px2rem(73px);
+			font-size: px2rem(30px);
+			line-height: px2rem(50px);
+		}
+	}
+}
+.order-tip{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: px2rem(25px);
+	div{
+		height: px2rem(50px);
+		line-height: px2rem(50px);
+		position: relative;
+		display: inline-block;
+		color: #65c07a;
+		font-size: px2rem(24px);
+		margin-left: px2rem(20px);
+		padding-left: px2rem(50px);
+		align-self: center;
+		.icon{
+			position: absolute;
+			display: block;
+			top: px2rem(12px);
+			left: px2rem(-4px);
+			height: px2rem(32px);
+			width: px2rem(50px);
+			background: url(../img/icon/order-right.png);
+			background-size: px2rem(50px) px2rem(32px);
+			background-repeat: no-repeat;
+		}
+	}
+}
+.sub-order-btn{
+	height: px2rem(70px);
+	line-height: px2rem(70px);
+	border-radius: 6px;
+	text-align: center;
+	color: #fff;
+	font-size: px2rem(32px);
+	background: $main-bg;
+	margin: px2rem(20px) px2rem(25px);
+	box-sizing: border-box;
+}
