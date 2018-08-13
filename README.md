@@ -1,8 +1,8 @@
-####src目录结构
+### src目录结构 ###
 - src:
 - ├─assets
-  -   ├─css
-  -   └─img
+-   ├─css
+-   └─img
   -       └─icon
 - ├─components
   -   ├─alert
