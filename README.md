@@ -6,7 +6,7 @@
 - ├─components
 - ├─redux
 - ├─router
-- ├─utils-
+- ├─utils
 - └─views
   -   ├─cart
   -   ├─detail
