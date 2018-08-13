@@ -1,30 +1,18 @@
 ### src目录结构 ###
 - src:
   - ├─assets
-  -   ├─css
-  -   └─img
-  -       └─icon
+  - ├─css
+  - └─img
 - ├─components
-  -   ├─alert
-  -   ├─loaderMore
-  -   ├─loading
-  -   └─scrollSlide
 - ├─redux
 - ├─router
-- ├─utils- └─views
-  -     ├─cart
-  -       └─child
-  -     ├─detail
-  -       ├─child
-  -       ├─cmplt
-  -       └─merchan
-  -           └─css
-  -     ├─development
-  -     ├─home
-  -       └─child
-  -     ├─login
-  -       └─child
-  -     └─moreDiscoun
-  -         └─child
+- ├─utils-
+- └─views
+  -   ├─cart
+  -   ├─detail
+  -   ├─development
+  -   ├─home
+  -   ├─login
+  -   └─moreDiscoun
 
   ##小结
