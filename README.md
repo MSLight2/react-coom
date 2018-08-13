@@ -1,8 +1,8 @@
 ### src目录结构 ###
 - src:
-- ├─assets
--   ├─css
--   └─img
+  - ├─assets
+  -   ├─css
+  -   └─img
   -       └─icon
 - ├─components
   -   ├─alert
@@ -11,8 +11,7 @@
   -   └─scrollSlide
 - ├─redux
 - ├─router
-- ├─utils
-- └─views
+- ├─utils- └─views
   -     ├─cart
   -       └─child
   -     ├─detail
