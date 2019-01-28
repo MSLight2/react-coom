@@ -1,22 +1,6 @@
 
 ### 技术栈 ###
 >  react + react-router4 + es6 + sass + fetch + flexible.js
-### src目录结构 ###
-- src:
-  - ├─assets
-    - ├─css
-    - └─img
-  - ├─components
-  - ├─redux
-  - ├─router
-  - ├─utils
-  - └─views
-    -   ├─cart
-    -   ├─detail
-    -   ├─development
-    -   ├─home
-    -   ├─login
-    -   └─moreDiscoun
 ### 说明 ###
 >  一个入门的小项目，主要熟悉一下react。
 ### 效果图 ###
