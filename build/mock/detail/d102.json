@@ -1,0 +1,100 @@
+{
+  "bannerImg": {
+    "imgList": [
+      "https://p0.meituan.net/deal/69e88a517626301f5517875ebf398143163684.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p0.meituan.net/deal/e90fe9ffc3df8899daecfd119b562002155580.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "https://p0.meituan.net/deal/5d4ef9c2b426e5884310c017a1f3438c168565.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20"
+    ],
+    "imgDesc": {
+      "title": "發囍烧味●发喜烧味",
+      "desc": "仅售1元！价值16元的下午茶饮品7选1，建议单人使用，提供免费WiFi。"
+    }
+  },
+  "goodsPriceDetial": {
+    "price": 9,
+    "discount": 1,
+    "isDailyDisCount": false,
+    "dailyDisCount": null,
+    "limitCount": null,
+    "isAnyTile": true,
+    "beOverdue": true
+  },
+  "goodsInfo": {
+    "title": "發囍烧味●发喜烧味",
+    "businessCount": 1,
+    "star": 3.5,
+    "distance": 1500,
+    "address": "江南西路19-21号105铺首层",
+    "phone": "12345678900"
+  },
+  "groupGoodsDetail": {
+    "typeText": "下午茶饮品7 选 1 (不可重复选)",
+    "goodsItem": [
+      {
+        "title": "發囍柠檬茶",
+        "count": 1,
+        "price": 16
+      },
+      {
+        "title": "發囍奶茶",
+        "count": 1,
+        "price": 16
+      },
+      {
+        "title": "發囍柠乐",
+        "count": 1,
+        "price": 16
+      },
+      {
+        "title": "發囍橙茶",
+        "count": 1,
+        "price": 16
+      },
+      {
+        "title": "發囍百香果茶",
+        "count": 1,
+        "price": 16
+      },
+      {
+        "title": "發囍柠7",
+        "count": 1,
+        "price": 16
+      },
+      {
+        "title": "發囍咸柠7",
+        "count": 1,
+        "price": 16
+      }
+    ],
+    "maxPrice": 16,
+    "groupPrice": 1,
+    "explain": "到店消费任意正价产品（除米饭、纸巾外）可用"
+  },
+  "buyNow": {
+    "dataTime": "2017-05-18至2018-03-14",
+    "exTime": "2018年2月15日至2018年2月22日",
+    "useTime": "团购券使用时间：14:00-17:00",
+    "makeRemind": "无需预约，消费高峰时可能需要等位",
+    "ruleRemind": ["每人最多使用1张团购券", "每张团购券建议1人使用"],
+    "otherPay": ["不提供餐巾纸"],
+    "privateRoom": false,
+    "toGo": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包袋免费、打包盒1元/盒",
+    "tip": ["到店消费任意正价产品（除米饭、纸巾外）可用","团购用户不可同时享受商家其他优惠"],
+    "businessService": [
+      "提供免费WiFi",
+      "停车位收费标准：详情以商家反馈为准"
+    ]
+  },
+  "other": [
+    {
+      "title": "下午茶饮品超值购",
+      "price": 26,
+      "discount": 11
+    },
+    {
+      "title": "超值竹升捞面套餐",
+      "price": 42,
+      "discount": 32
+    }
+  ]
+}

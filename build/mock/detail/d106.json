@@ -1,0 +1,87 @@
+{
+  "bannerImg": {
+    "imgList": [
+      "https://p1.meituan.net/deal/04f8ead68c6ce3eda19e469464fd5be0101198.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20"
+    ],
+    "imgDesc": {
+      "title": "到咱家东北饺子馆",
+      "desc": "仅售68元！最高价值77元的可口2人餐。"
+    }
+  },
+  "goodsPriceDetial": {
+    "price": 77,
+    "discount": 68,
+    "isDailyDisCount": true,
+    "dailyDisCount": 4,
+    "limitCount": 2,
+    "isAnyTile": true,
+    "beOverdue": true
+  },
+  "goodsInfo": {
+    "title": "到咱家东北饺子馆(滨江东路店)",
+    "businessCount": 1,
+    "star": 3.5,
+    "distance": 1800,
+    "address": "滨江东路怡凤街东闸外38号",
+    "phone": "12345678900"
+  },
+  "groupGoodsDetail": {
+    "typeText": "热菜4选1(不可重复选)",
+    "goodsItem": [
+      {
+        "title": "酸菜鱼/水煮鱼",
+        "count": 1,
+        "price": 36
+      },
+      {
+        "title": "小鸡蘑菇炖粉条",
+        "count": 1,
+        "price": 33
+      },
+      {
+        "title": "水煮肉片",
+        "count": 1,
+        "price": 35
+      },
+      {
+        "title": "辣子鸡",
+        "count": 1,
+        "price": 35
+      }
+    ],
+    "maxPrice": 77,
+    "groupPrice": 68,
+    "explain": ""
+  },
+  "buyNow": {
+    "dataTime": "2016-03-24至2018-03-17",
+    "exTime": "有效期内周末、法定节假日可用",
+    "useTime": "团购券使用时间：09:30-22:30",
+    "makeRemind": "无需预约，消费高峰时可能需要等位",
+    "ruleRemind": ["每张团购券建议2人使用"],
+    "otherPay": ["不提供餐巾纸","套餐包含2份茶位，如需增加，需到店另付1元/份"],
+    "privateRoom": false,
+    "toGo": "堂食外带均可，可以打包，打包费详情咨询商家",
+    "tip": ["团购用户不可同时享受商家其他优惠","酒水饮料等问题，请致电商家咨询，以商家反馈为准","如部分菜品因时令或其他不可抗因素导致无法提供，店内会用等价菜品替换，具体事宜请与店内协商"],
+    "businessService": [
+      "停车位收费标准：有停车位"
+    ]
+  },
+  "other": [
+    {
+      "title": "广州酒家",
+      "price": 200,
+      "discount": 190
+    },
+    {
+      "title": "點都德",
+      "price": 100,
+      "discount": 90
+    },
+    {
+      "title": "原志居酒V+精细料理",
+      "price": 72,
+      "discount": 39
+    }
+  ]
+}

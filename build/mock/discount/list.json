@@ -1,0 +1,70 @@
+{
+  "listData": [
+    {
+      "id": 1,
+      "img": "/img/dis/1.jpg",
+      "title": "活力无限KTV(北京路店)",
+      "desc": "[北京路] 单人周一至周日11:00-17:00任选3小时欢唱套餐",
+      "price": 145,
+      "disPrice": 9.9,
+      "sellCount": 7863,
+      "isAppointment": false,
+      "newDisPrice": null
+    },
+    {
+      "id": 2,
+      "img": "/img/dis/2.jpg",
+      "title": "胜龙汇量贩式KTV",
+      "desc": "[嘉禾/人和] 单人下午场欢唱5小时",
+      "price": 98,
+      "disPrice": 8.8,
+      "sellCount": 7294,
+      "isAppointment": false,
+      "newDisPrice": null
+    },
+    {
+      "id": 3,
+      "img": "/img/dis/3.jpg",
+      "title": "尚辰量贩式ktv（沙湾店）",
+      "desc": "[沙湾镇] 周一至周日12:00-18:00欢唱6小时券",
+      "price": 168,
+      "disPrice": 9.9,
+      "sellCount": 4403,
+      "isAppointment": false,
+      "newDisPrice": null
+    },
+    {
+      "id": 4,
+      "img": "/img/dis/4.jpg",
+      "title": "金畅量贩式KTV",
+      "desc": "[天河公园] 周一至周五11:00-19:00欢唱5小时+饮品套餐",
+      "price": 98,
+      "disPrice": 9.9,
+      "sellCount": 1474,
+      "isAppointment": false,
+      "newDisPrice": null
+    },
+    {
+      "id": 5,
+      "img": "/img/dis/5.jpg",
+      "title": "华莱士",
+      "desc": "[30店通用] 开心牛堡套餐，建议单人使用",
+      "price": 21,
+      "disPrice": 9.9,
+      "sellCount": 11,
+      "isAppointment": true,
+      "newDisPrice": 8.9
+    },
+    {
+      "id": 6,
+      "img": "/img/dis/6.jpg",
+      "title": "劲派量贩式KTV（钟村店）",
+      "desc": "[钟村] 周一至周日14:00-18:00欢唱4小时+爆米花一份",
+      "price": 199,
+      "disPrice": 9.9,
+      "sellCount": 543,
+      "isAppointment": false,
+      "newDisPrice": null
+    }
+  ]
+}

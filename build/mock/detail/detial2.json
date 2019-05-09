@@ -1,0 +1,70 @@
+{
+  "bannerImg": {
+    "imgList": ["https://p0.meituan.net/deal/aa4caffceed31733592ef0cbb9654943918829.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20"],
+    "imgDesc": {
+      "title": "台湾小吃蚵仔面线",
+      "desc": "仅售12.9元！价值20元的蚵仔面线1份，提供免费WiFi。"
+    }
+  },
+  "goodsPriceDetial": {
+    "price": 20,
+    "discount": 12.9,
+    "isDailyDisCount": false,
+    "dailyDisCount": 4,
+    "limitCount": 15,
+    "isAnyTile": true,
+    "beOverdue": true
+  },
+  "goodsInfo": {
+    "title": "台湾小吃蚵仔面线(惠福东路店)",
+    "businessCount": 1,
+    "star": 4,
+    "distance": 1238,
+    "address": "惠福东路451号",
+    "phone": "12345678900"
+  },
+  "groupGoodsDetail": {
+    "typeText": "主食",
+    "goodsItem": [
+      {
+        "title": "蚵仔面线",
+        "count": 1,
+        "price": 20
+      }
+    ],
+    "maxPrice": 20,
+    "groupPrice": 12.9,
+    "explain": "免费提供餐巾纸"
+  },
+  "buyNow": {
+    "dataTime": "2017-05-03至2018-05-02",
+    "exTime": "2018年2月14日至2018年2月17日",
+    "useTime": "团购券使用时间：11:00-21:30",
+    "makeRemind": "无需预约，消费高峰时可能需要等位",
+    "ruleRemind": ["每张团购券建议1人使用"],
+    "otherPay": ["不提供餐巾纸"],
+    "privateRoom": false,
+    "toGo": "堂食外带均可，可免费打包",
+    "tip": ["团购用户不可同时享受商家其他优惠"],
+    "businessService": [
+      "提供免费WiFi"
+    ]
+  },
+  "other": [
+    {
+      "title": "广州酒家",
+      "price": 200,
+      "discount": 190
+    },
+    {
+      "title": "浅风餐厅",
+      "price": 21,
+      "discount": 8.8
+    },
+    {
+      "title": "1874西餐吧",
+      "price": 43,
+      "discount": 9.8
+    }
+  ]
+}

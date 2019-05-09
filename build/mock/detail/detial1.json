@@ -1,0 +1,71 @@
+{
+  "bannerImg": {
+    "imgList": ["/img/cai/detail1.jpg"],
+    "imgDesc": {
+      "title": "稻香酒家",
+      "desc": "仅售1元！最高价值124元的酱香狮头鹅煲，建议2人使用，提供免费WiFi。"
+    }
+  },
+  "goodsPriceDetial": {
+    "price": 124,
+    "discount": 1,
+    "isDailyDisCount": false,
+    "dailyDisCount": null,
+    "limitCount": null,
+    "isAnyTile": true,
+    "beOverdue": true
+  },
+  "goodsInfo": {
+    "title": "稻香酒家(广州分店)",
+    "businessCount": 4,
+    "star": 4.5,
+    "distance": 1422,
+    "address": "新港东路179号",
+    "phone": "12345678900"
+  },
+  "groupGoodsDetail": {
+    "typeText": "蛋糕",
+    "goodsItem": [
+      {
+        "title": "巧克力芝士蛋糕",
+        "count": 2,
+        "price": 9
+      }
+    ],
+    "maxPrice": 30,
+    "groupPrice": 9.9,
+    "explain": "本单每2位起用，4位可用2张，6位可用3张，如此类推"
+  },
+  "buyNow": {
+    "dataTime": "2015-05-13至2018-01-26",
+    "exTime": "2017年10月1日至2017年10月4日，法定节假日不可用！",
+    "useTime": "团购券使用时间：11:00-22:00",
+    "makeRemind": "无需预约，消费高峰时可能需要等位",
+    "ruleRemind": ["每张团购券建议1至2人使用"],
+    "otherPay": ["不提供餐巾纸"],
+    "privateRoom": false,
+    "toGo": "堂食外带均可，可免费打包",
+    "tip": ["团购用户不可同时享受商家其他优惠"],
+    "businessService": [
+      "提供免费WiFi",
+      "停车位收费标准：详情咨询商家"
+    ]
+  },
+  "other": [
+    {
+      "title": "芝士包套餐",
+      "price": 98,
+      "discount": 79
+    },
+    {
+      "title": "起司蛋糕1个",
+      "price": 39,
+      "discount": 33
+    },
+    {
+      "title": "榴莲起司蛋糕1个",
+      "price": 49,
+      "discount": 45
+    }
+  ]
+}
