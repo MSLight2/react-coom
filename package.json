@@ -2,7 +2,7 @@
   "name": "public-comment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mslight2.github.io",
+  "homepage": "https://mslight2.github.io/react-coom/build",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
